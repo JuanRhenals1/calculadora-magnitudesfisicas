@@ -1,0 +1,111 @@
+ /* style.css */
+
+ body {
+  background-image: url('formula.jpg');
+    background-color: #1e1e1e; /* Dark background */
+    color: #d4d4d4; /* Light text color */
+    font-family: 'Source Code Pro', monospace; /* Monospace font */
+    margin: 0;
+    padding: 250px;
+    user-select: none;
+}
+
+.calculator-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #252526; /* Darker container */
+    border: 1px solid #3c3c3c; /* Border color */
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 0 10px #007acc; /* Blue shadow */
+}
+
+h1 {
+    text-align: center;
+    color: #569cd6; /* Bright blue for headings */
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+h2 {
+    text-align: center;
+    color: #9cdcfe; /* Lighter blue for subheadings */
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1rem;
+    background-color: #1e1e1e; /* Dark background for select */
+    border: 1px solid #3c3c3c; /* Border color */
+    border-radius: 4px;
+    color: #d4d4d4; /* Light text color */
+    transition: border-color 0.3s ease;
+}
+
+select:focus {
+    border-color: #569cd6; /* Highlight border on focus */
+    outline: none; /* Remove default outline */
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1rem;
+    background-color: #1e1e1e; /* Dark background for inputs */
+    border: 1px solid #3c3c3c; /* Border color */
+    border-radius: 4px;
+    color: #d4d4d4; /* Light text color */
+    transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus {
+    border-color: #569cd6; /* Highlight border on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #0e639c; /* Button background */
+    color: #fff; /* Button text color */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1177dd; /* Button hover color */
+}
+
+.resultado {
+    margin-top: 20px;
+    background-color: #333; /* Dark background for results */
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #dcdcaa; /* Light result text color */
+    min-height: 1.5em;
+    white-space: pre-wrap; /* Preserve whitespace */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #9cdcfe; /* Footer text color */
+    font-size: 0.9rem;
+}

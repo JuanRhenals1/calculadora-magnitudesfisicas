@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Fisica - Ingeniería de Software</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <h1>Calculadora de Magnitudes Físicas</h1>
+        <h2>Ingeniería de Software</h2>
+
+        <select id="calculoSeleccionado" onChange="mostrarFormulario()">
+            <option value="">Seleccione un cálculo</option>
+            <option value="velocidad">Velocidad</option>
+            <option value="aceleracion">Aceleración</option>
+            <option value="fuerza">Fuerza</option>
+            <option value="trabajo">Trabajo</option>
+            <option value="energiacinetica">Energía Cinética</option>
+            <option value="energiapotencialgravitatoria">Energía Potencial Gravitatoria</option>
+            <option value="densidad">Densidad</option>
+            <option value="presion">Presión</option>
+            <option value="cargaelectrica">Carga Eléctrica</option>
+            <option value="leyDeOhm">Ley De Ohm</option>
+        </select>
+
+        <form id="formulario"></form>
+
+        <div id="resultado" class="resultado"></div>
+
+        <footer>Diseñado por Juan Rhenals</footer>
+    </div>
+    <script src="funciones.js"></script>
+</body>
+</html>
